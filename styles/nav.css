@@ -1,0 +1,35 @@
+/*body*/
+body{
+    display: block;
+    margin: 0px;
+    font-family: DroidArabicKufi-Regular, sans-serif, Arial;
+}
+/*header*/
+.header {
+    background-color: #09c9cf;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header a{
+text-decoration: #09c9cf;
+color: white;
+}
+.header li{
+    padding: 10px;
+    font-weight :bold;
+}
+.header li:hover a{
+    color: #09c9cf;
+    background-color:white;
+    padding: 10px;
+}
+.dou {
+    margin-right : 30px;
+}
+.right-header{
+    display: flex;
+    justify-content: space-between;
+}

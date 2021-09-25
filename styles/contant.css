@@ -1,0 +1,140 @@
+/*body*/
+body{
+    display: block;
+    margin: 0px;
+    font-family: DroidArabicKufi-Regular, sans-serif, Arial;
+}
+/*padding and margin*/
+.space {
+    padding-top: 100px;
+}.half-space{
+    padding-top: 50px;
+}.main-contant {
+border: solid 1px;
+margin-left: 10%;
+margin-right: 10%;
+padding: 10px;
+padding-bottom: 1000px;
+border: 1px solid #ddd;
+background-color: #fff;
+}.right-contant {
+    width: 20%;
+    box-sizing: border-box;
+    float: right;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+}.left-contant {
+    width: 75%;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+}.columns {
+    direction: rtl;
+    -webkit-text-size-adjust: 100%;
+    color: #333;
+    font: normal normal 16px/1.4 'DroidArabicKufi-Regular', sans-serif, Arial;
+    list-style-type: none;
+    height: 135px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 5px;
+    padding: 0px 5px 0 5px;
+    box-sizing: border-box;
+    width: 76%;
+}.OutForm{
+    text-align: center;
+}.OutForm input{
+    padding: 8px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    width: 30%;
+    outline: none;
+}
+/*texts*/
+.titles {
+    margin-top: 0px;
+    border-bottom: 1px solid #ddd;
+}.title{
+    direction: rtl;
+    -webkit-text-size-adjust: 100%;
+    font: normal normal 16px/1.4 'DroidArabicKufi-Regular', sans-serif, Arial;
+    color: #09c9cf;
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    font-size: 16px;
+    word-wrap: break-word;
+    height: 55px;
+    line-height: 26px;
+    margin-right: auto;
+    float: left;
+    margin-left: 10px;
+}.p{
+    padding-top: 30px;
+}.input-name{
+font-weight: bold;
+color: #09c9cf;
+}
+/*imges*/
+.adv-img{
+direction: rtl;
+-webkit-text-size-adjust: 100%;
+font: normal normal 16px/1.4 'DroidArabicKufi-Regular', sans-serif, Arial;
+list-style-type: none;
+color: #09c9cf;
+font-weight: bold;
+line-height: 1.8;
+word-wrap: break-word;
+vertical-align: middle;
+border: none;
+width: 128px;
+height: 75px;
+display: block;
+margin: auto;
+border-radius: 5px 5px 0 0;
+background-color: #ffffff;
+}.contant-img{
+    direction: rtl;
+    -webkit-text-size-adjust: 100%;
+    color: #333;
+    font: normal normal 16px/1.4 'DroidArabicKufi-Regular', sans-serif, Arial;
+    font-size: 16px;
+    line-height: 1.8;
+    aspect-ratio: auto 614 / 292;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    width: 100%;
+}.lozad{
+    direction: rtl;
+    -webkit-text-size-adjust: 100%;
+    font: normal normal 16px/1.4 'DroidArabicKufi-Regular', sans-serif, Arial;
+    list-style-type: none;
+    color: #09c9cf;
+    font-weight: bold;
+    line-height: 1.8;
+    word-wrap: break-word;
+    vertical-align: middle;
+    border: none;
+    width: 128px;
+    height: 75px;
+    display: block;
+    margin: auto;
+    border-radius: 5px 5px 0 0;
+    background-color: #49cbd2;
+}
+/*button*/
+.OutForm button{
+    background-color: #09c9cf;
+    border-radius: 10px;
+    color: white;
+    border: 0.5px solid #09c9cf;
+    box-shadow: 0px 1px 2px gainsboro;
+    cursor: pointer;
+    padding : 10px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
