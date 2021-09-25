@@ -1,7 +1,7 @@
 let name =  document.getElementsByClassName('input-name')
 let pass =  document.getElementsByClassName('input-pass')
 let login = false;
-const url = "http://localhost:4000/api/acount"
+const url = "https://git.heroku.com/onlinelearningbend.git"
 
 async function creatacount(name, pass) {
     login = true
